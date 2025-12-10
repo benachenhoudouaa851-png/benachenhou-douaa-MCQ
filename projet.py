@@ -4,6 +4,6 @@
 #Ayed Zeddam Abir
 #Derni Salima
 
-impoert pandas as pd 
+impoert pandas as pd
 
 
