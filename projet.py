@@ -3,3 +3,6 @@
 #Hocine Hadil
 #Ayed Zeddam Abir
 #Derni Salima
+
+impoert pandas as pd 
+
