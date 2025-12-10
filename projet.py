@@ -20,3 +20,10 @@ print("***************** Création et affichage *****************","\n""\n")
 # Affinage du tableau
 print("Tableau des séquences ADN :", "\n")
 print(nh, "\n""\n")
+
+
+
+
+
+
+
