@@ -51,6 +51,6 @@ return "faible"
 
 #ayad Zeddam abir
 #6) Ajouter une colonne donnant le nombre de G
-nh["nombre de G"] = nh["séquence"].str.count("G")
+nh["nombre de G"] = nh["Séquence"].str.count("G")
 print("********** 6) Nombre de G ajoutés **********")
 print(nh, "\n")
