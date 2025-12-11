@@ -61,8 +61,10 @@ print(nh, "\n")
 nh["nombre de G"] = nh["Séquence"].str.count("G")
 print("********** 6) Nombre de G ajoutés **********")
 print(nh, "\n")
+
 # Hocine Hadil
+
 #7) calculer de l'écart-type du pourcentage GC
 print("********** Calcule de l'écart-type du Pourcentage GC********")
-écart-type_gc = nh["Pourcentage GC"].mean()
-print(f"Écart-type du Pourcentage GC : {écart-type_gc:.3f}%", "\n")
+Écart-type_gc = nh["Pourcentage GC"].std()
+print(f"Écart-type du Pourcentage GC : {Écart-type_gc:.3f}%", "\n")
