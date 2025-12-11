@@ -21,6 +21,12 @@ print("********** Création et affichage *********","\n""\n")
 print("Tableau des séquences ADN :", "\n")
 print(nh, "\n""\n")
 
+# Hocine Hadil
+
+# 2 sélection et affichage uniquement de colone "longueur"
+longueur = nh["Longueur"]
+print("********* 2) sélection et affichage du colonne ********* ")
+print(Longueur, "\n")
 
 
 
