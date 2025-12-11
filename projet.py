@@ -27,3 +27,8 @@ print(nh, "\n""\n")
 
 
 
+# benachenhou douaa 
+# 4) Calculer la moyenne du pourcentage de GC
+print("***************** Calcul de la moyenne *****************", "\n")
+average_gc = nh["pourcentage GC"].mean()
+print(f"pourcentage moyen de GC : {average_gc:.3f}%", "\n")
