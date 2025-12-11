@@ -34,7 +34,6 @@ print("********* Filtrer avec Longueur *********")
 filtered_nh = nh[nh["Longueur"] >10]
 print(filtered_nh, "\n")
 
-
 # benachenhou douaa 
 # 4) Calculer la moyenne du pourcentage de GC
 print("*********** Calcul de la moyenne ***********", "\n")
@@ -56,10 +55,6 @@ def Catégorie_GC (GC_precent):
 nh["Catégorie GC"] = nh["Pourcentage GC"].apply(Catégorie_GC)
 print("********** 5)Tableau avec Catégorie GC *******")
 print(nh, "\n")
-
-
-
-
 
 #ayad Zeddam abir
 #6) Ajouter une colonne donnant le nombre de G
