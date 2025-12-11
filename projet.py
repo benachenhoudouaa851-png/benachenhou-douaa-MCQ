@@ -34,15 +34,16 @@ average_gc = nh["Pourcentage GC"].mean()
 print(f"pourcentage moyen de GC : {average_gc:.3f}%", "\n")
 
 #ayad Zeddam abir
-#5) Ajouter d'un colonne "catégorie GC"
-print("*********** Ajoute d'une colonne catégorie GC ***********", "\n")
-nh Catégorie_GC(GC_precent):
-if GC_precent>55
-return "Riche"
-elif 45<= GC_precent<=55
-return "moyen"
-else GC_precent<45
-return "faible"
+#5) Ajouter d'un colonne "Catégorie GC"
+print("*********** Ajoute d'une colonne Catégorie GC ***********", "\n")
+def Catégorie_GC (GC_precent):
+ if GC_precent>55:
+    return "Riche"
+ elif 45<= GC_precent<=55:
+    return "moyen"
+ else :
+    return "faible"
+     
 #Derni Salima
 nh["Catégorie GC"] = nh["Pourcentage GC"].apply(Categorie-GC)
 print("********** 5)Tableau avec Catégorie GC *******")
