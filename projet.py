@@ -45,7 +45,7 @@ def Catégorie_GC (GC_precent):
     return "faible"
      
 #Derni Salima
-nh["Catégorie GC"] = nh["Pourcentage GC"].apply(Categorie_GC)
+nh["Catégorie GC"] = nh["Pourcentage GC"].apply(Catégorie_GC)
 print("********** 5)Tableau avec Catégorie GC *******")
 print(nh, "\n")
 
