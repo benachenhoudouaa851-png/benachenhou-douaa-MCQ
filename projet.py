@@ -32,3 +32,25 @@ print(nh, "\n""\n")
 print("*********** Calcul de la moyenne ***********", "\n")
 average_gc = nh["Pourcentage GC"].mean()
 print(f"pourcentage moyen de GC : {average_gc:.3f}%", "\n")
+
+#ayad Zeddam abir
+#5) Ajouter d'un colonne "catégorie GC"
+print("*********** Ajoute d'une colonne catégorie GC ***********", "\n")
+nh Catégorie_GC(GC_precent):
+if GC_precent>55
+return "Riche"
+elif 45<= GC_precent<=55
+return "moyen"
+else GC_precent<45
+return "faible"
+
+
+
+
+
+
+#ayad Zeddam abir
+#6) Ajouter une colonne donnant le nombre de G dans chaque séquence 
+nh["nombre de G"] nh["séquence"].str.count("G")
+print("********** 6) Nombre de G ajoutés **********")
+print(nh, "\n")
