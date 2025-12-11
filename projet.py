@@ -64,7 +64,7 @@ print(nh, "\n")
 
 # Hocine Hadil
 
-#7) calculer de l'écart-type du pourcentage GC
-print("********** Calcule de l'écart-type du Pourcentage GC********")
-Écart-type_gc = nh["Pourcentage GC"].std()
-print(f"Écart-type du Pourcentage GC : {Écart-type_gc:.3f}%", "\n")
+#7) calculer de l'écart_type du pourcentage GC
+print("********** Calcule de l'écart_type du Pourcentage GC********")
+Écart_type_gc = nh["Pourcentage GC"].std()
+print(f"Écart_type du Pourcentage GC : {Écart_type_gc:.3f}%", "\n")
