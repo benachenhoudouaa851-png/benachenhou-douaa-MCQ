@@ -43,7 +43,10 @@ elif 45<= GC_precent<=55
 return "moyen"
 else GC_precent<45
 return "faible"
-
+#Derni Salima
+nh["catégorie GC"] = nh["pourcentage GC"].apply(categoriser-GC)
+print("********** 5)tableau avec catégorie GC *******")
+print(nh, "\n")
 
 
 
