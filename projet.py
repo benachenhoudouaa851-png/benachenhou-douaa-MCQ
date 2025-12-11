@@ -28,9 +28,11 @@ longueur = nh["Longueur"]
 print("********* 2)  Affichage de colonne [Longueur] ********* ")
 print(nh["Longueur"], "\n")
 
-
-
-
+# Derni Salima
+# 3 filtrer les séquences avec une longueur supérieur à 10
+print("********* Filtrer avec Longueur *********")
+filtered_nh = nh[nh["Longueur"] >10]
+print(filtered_nh, "\n")
 
 
 # benachenhou douaa 
@@ -50,7 +52,7 @@ def Catégorie_GC (GC_precent):
  else :
     return "faible"
      
-#Derni Salima
+# Derni Salima
 nh["Catégorie GC"] = nh["Pourcentage GC"].apply(Catégorie_GC)
 print("********** 5)Tableau avec Catégorie GC *******")
 print(nh, "\n")
