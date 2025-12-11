@@ -23,10 +23,10 @@ print(nh, "\n""\n")
 
 # Hocine Hadil
 
-# 2 sélection et affichage uniquement de colone "longueur"
+# 2 sélection et afficher uniquement de colone "longueur"
 longueur = nh["Longueur"]
-print("********* 2) sélection et affichage du colonne ********* ")
-print(Longueur, "\n")
+print("********* 2)  Affichage de colonne [Longueur] ********* ")
+print(nh["Longueur"], "\n")
 
 
 
