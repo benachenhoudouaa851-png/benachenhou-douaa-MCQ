@@ -15,7 +15,7 @@ data = {
 # herir nesrine 
 # 1) Création et affichage d'une DataFrame (tableau pandans)
 nh = pd.DataFrame(data)
-print("***************** Création et affichage *****************","\n""\n")
+print("********** Création et affichage *********","\n""\n")
 
 # Affinage du tableau
 print("Tableau des séquences ADN :", "\n")
@@ -29,6 +29,6 @@ print(nh, "\n""\n")
 
 # benachenhou douaa 
 # 4) Calculer la moyenne du pourcentage de GC
-print("***************** Calcul de la moyenne *****************", "\n")
-average_gc = nh["pourcentage GC"].mean()
+print("*********** Calcul de la moyenne ***********", "\n")
+average_gc = nh["Pourcentage GC"].mean()
 print(f"pourcentage moyen de GC : {average_gc:.3f}%", "\n")
