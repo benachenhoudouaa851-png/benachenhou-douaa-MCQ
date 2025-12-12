@@ -70,7 +70,7 @@ print("********** Calcule de l'écart_type du Pourcentage GC********")
 print(f"Écart_type du Pourcentage GC : {Écart_type_gc:.3f}%", "\n")
 
 #herir nesrine 
-#7) calculer de l'écart_type du longeur
-print("********* Calcule de l'écart_type du Longeur ********")
-Écart_type_Longeur = nh["Longeur"].std()
-print(f"Écart_type du Longeur : {Écart_type_Longeur:.3f}", "\n")
+#7) calculer de l'écart_type du longueur
+print("********* Calcule de l'écart_type du Longueur ********")
+Écart_type_Longueur = nh["Longueur"].std()
+print(f"Écart_type du Longueur : {Écart_type_Lonugeur:.3f}", "\n")
