@@ -74,3 +74,8 @@ print(f"Écart_type du Pourcentage GC : {Écart_type_gc:.3f}%", "\n")
 print("********* Calcule de l'écart_type du Longueur ********")
 Écart_type_Longueur = nh["Longueur"].std()
 print(f"Écart_type du Longueur : {Écart_type_Longueur:.3f}", "\n")
+
+# benachenhou douaa 
+# 8) sauvegardes le tableau final dans un fichier CSV
+# sauvegarder le Dataframe dans un fichier CSV
+nh.to_csv("tableau_sequences.CSV", index=False)
