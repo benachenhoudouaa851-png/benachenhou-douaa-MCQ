@@ -79,3 +79,6 @@ print(f"Écart_type du Longueur : {Écart_type_Longueur:.3f}", "\n")
 # 8) sauvegardes le tableau final dans un fichier CSV
 # sauvegarder le Dataframe dans un fichier CSV
 nh.to_csv("tableau_sequences.CSV", index=False)
+
+
+
